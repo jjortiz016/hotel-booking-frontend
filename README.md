@@ -2,7 +2,7 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.13.
 
-# Technologies used
+## Technologies used
 - Angular 19.2.13
 - Node js 20.13.1
 
