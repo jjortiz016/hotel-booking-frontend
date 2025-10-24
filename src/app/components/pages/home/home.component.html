@@ -1,4 +1,4 @@
-<div>
+<div class="page-title-area">
  <div>
     <div>
         <h2>Hoteles en cualquier parte del mundo</h2>
@@ -15,15 +15,16 @@
                 <div>
                    <div>
                      <label for="">Fecha entrada</label>
-
-                     <img src="" alt="Calendario">
+                        <dp-date-picker theme="dp-material" placeholder="Agregar fecha" [config]="datePickerConfig" required="true"></dp-date-picker>
+                        <img src="images/icon/calendar.svg" alt="Calendario">
                    </div>
                 </div>
                 <div>
                    <div>
                      <label for="">Fecha salida</label>
+                        <dp-date-picker theme="dp-material" placeholder="Agregar fecha" [config]="datePickerConfig" required="true"></dp-date-picker>
+                     <img src="images/icon/calendar.svg" alt="Calendario">
 
-                     <img src="" alt="Calendario">
                    </div>
                 </div>
                 <div>
