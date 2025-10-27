@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
 import { DpDatePickerModule } from 'ng2-date-picker';
-import { HotelListeningComponent } from '../hotel-listening/hotel-listening.component';
-
+import { HotelListingComponent } from '../hotel-listing/hotel-listing.component';
 @Component({
   selector: 'app-home',
   imports: [
       DpDatePickerModule,
-      HotelListeningComponent
+      HotelListingComponent
 
   ],
   templateUrl: './home.component.html',
