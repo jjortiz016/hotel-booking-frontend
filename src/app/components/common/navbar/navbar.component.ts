@@ -7,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrl: './navbar.component.scss'
 })
 export class NavbarComponent {
+  classApplied=false;
+  toggleClass(){
+    this.classApplied=!this.classApplied;
+  }
 
 }
